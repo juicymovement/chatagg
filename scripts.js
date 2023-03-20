@@ -3,8 +3,8 @@ const instanceSelector = document.getElementById('instanceSelector');
 const userView = document.getElementById('userView');
 
 const websites = [
-  'https://discord.com/',
-  'https://discord.com/',
+  'https://discord.com/app',
+  'https://google.com/',
   'https://discord.com/',
   'https://discord.com/',
   'https://discord.com/',
@@ -16,13 +16,13 @@ websites.forEach((website, index) => {
     const iframe = document.createElement('iframe');
     iframe.src = website;
     instances.appendChild(iframe);
-  
+
     const option = document.createElement('option');
     option.value = index;
     option.innerText = `Instance ${index + 1}`;
     instanceSelector.appendChild(option);
   });
-  
+
 
 function addToView() {
   const selectedIndex = instanceSelector.value;
