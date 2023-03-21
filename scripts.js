@@ -7,7 +7,7 @@ const websites = [
   'https://google.com/webhp?igu=1',
   'https://party.finance/',
   'https://www.google.com/search?igu=1',
-  'https://discord.com/',
+  'https://app.party.finance/',
   'https://discord.com/',
 ];
 
