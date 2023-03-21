@@ -3,10 +3,10 @@ const instanceSelector = document.getElementById('instanceSelector');
 const userView = document.getElementById('userView');
 
 const websites = [
-  'https://discord.com/app',
-  'https://google.com/',
+  'https://discord.com/app#',
+  'https://google.com/webhp?igu=1',
   'https://party.finance/',
-  'https://discord.com/',
+  'https://www.google.com/search?igu=1',
   'https://discord.com/',
   'https://discord.com/',
 ];
