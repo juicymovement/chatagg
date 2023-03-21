@@ -5,7 +5,7 @@ const userView = document.getElementById('userView');
 const websites = [
   'https://discord.com/app',
   'https://google.com/',
-  'https://discord.com/',
+  'https://party.finance/',
   'https://discord.com/',
   'https://discord.com/',
   'https://discord.com/',
